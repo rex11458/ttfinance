@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>action</key>
+			<string>aboutTT</string>
+			<key>title</key>
+			<string>了解投投</string>
+			<key>imageName</key>
+			<string>icon_aboutTT</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>security</string>
+			<key>title</key>
+			<string>安全保障</string>
+			<key>imageName</key>
+			<string>icon_safety</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>commonProblems</string>
+			<key>title</key>
+			<string>常见问题</string>
+			<key>imageName</key>
+			<string>icon_commonQuestion</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>serviceTelephone</string>
+			<key>title</key>
+			<string>客服电话</string>
+			<key>imageName</key>
+			<string>new_kehufuwu</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string></string>
+			<key>title</key>
+			<string>官方网站</string>
+			<key>imageName</key>
+			<string>icon_com</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string></string>
+			<key>title</key>
+			<string>微信公众号</string>
+			<key>imageName</key>
+			<string>icon_WX</string>
+		</dict>
+	</array>
+</array>
+</plist>

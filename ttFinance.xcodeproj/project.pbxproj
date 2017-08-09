@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D18C3C31EAEFCE8005675DC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18C3C21EAEFCE8005675DC /* BaseModel.swift */; };
+		3D18C3C51EAF0912005675DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18C3C41EAF0912005675DC /* User.swift */; };
+		3D18C3DA1EAF440E005675DC /* UserAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18C3D91EAF440E005675DC /* UserAttributes.swift */; };
+		3D31A97B1EB82B310069BD8A /* BankCardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A97A1EB82B310069BD8A /* BankCardListViewController.swift */; };
+		3D31A97D1EB82D740069BD8A /* BankCardListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A97C1EB82D740069BD8A /* BankCardListViewCell.swift */; };
+		3D31A97F1EB834F70069BD8A /* LoginPasswordSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A97E1EB834F70069BD8A /* LoginPasswordSettingViewController.swift */; };
+		3D43574F1EB0324100B79B04 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D43574E1EB0324100B79B04 /* HUD.swift */; };
+		3D52997D1EA9A3BA0073E3C9 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52997C1EA9A3BA0073E3C9 /* UIColor+Extensions.swift */; };
+		3D52997F1EA9A72E0073E3C9 /* ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52997E1EA9A72E0073E3C9 /* ThemeStyle.swift */; };
+		3D5299811EA9B1430073E3C9 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5299801EA9B1430073E3C9 /* UIImage+Extensions.swift */; };
+		3D52998C1EA9E95E0073E3C9 /* MainMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52998B1EA9E95E0073E3C9 /* MainMineViewController.swift */; };
+		3D52998E1EA9E9670073E3C9 /* MainMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52998D1EA9E9670073E3C9 /* MainMineHeaderView.swift */; };
+		3D5299901EA9E9FD0073E3C9 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52998F1EA9E9FD0073E3C9 /* AppConfig.swift */; };
+		3D5299921EA9EEA10073E3C9 /* MainMine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D5299911EA9EEA10073E3C9 /* MainMine.plist */; };
+		3D5299941EA9EFE30073E3C9 /* MainMineViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5299931EA9EFE30073E3C9 /* MainMineViewCell.swift */; };
+		3D5DC1391EAA5C6800F00EA7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DC1381EAA5C6800F00EA7 /* LoginView.swift */; };
+		3D6127B11EA8454C00A3D111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6127AF1EA8454C00A3D111 /* Main.storyboard */; };
+		3D6127B61EA8454C00A3D111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6127B41EA8454C00A3D111 /* LaunchScreen.storyboard */; };
+		3D6127C11EA84BDE00A3D111 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127C01EA84BDE00A3D111 /* HTTPService.swift */; };
+		3D6127CA1EA84C5F00A3D111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127C71EA84C5F00A3D111 /* AppDelegate.swift */; };
+		3D6127CB1EA84C5F00A3D111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6127C81EA84C5F00A3D111 /* Assets.xcassets */; };
+		3D6127DD1EA8B57C00A3D111 /* MainTalentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127DC1EA8B57C00A3D111 /* MainTalentViewController.swift */; };
+		3D6127DF1EA8B58800A3D111 /* MainProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127DE1EA8B58800A3D111 /* MainProductViewController.swift */; };
+		3D6127E41EA8B63600A3D111 /* MainHoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127E31EA8B63600A3D111 /* MainHoldingsViewController.swift */; };
+		3D749ED81EAA636F001AD3B5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D749ED71EAA636F001AD3B5 /* Login.storyboard */; };
+		3D749EDA1EAA6389001AD3B5 /* RigsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749ED91EAA6389001AD3B5 /* RigsterViewController.swift */; };
+		3D749EDC1EAA6396001AD3B5 /* FogoPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749EDB1EAA6396001AD3B5 /* FogoPasswordViewController.swift */; };
+		3D749EDE1EAA63BB001AD3B5 /* FogoPasswordVericationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749EDD1EAA63BB001AD3B5 /* FogoPasswordVericationViewController.swift */; };
+		3D749EE01EAA63D1001AD3B5 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749EDF1EAA63D1001AD3B5 /* ResetPasswordViewController.swift */; };
+		3D749EE21EAA63DA001AD3B5 /* AlertPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749EE11EAA63DA001AD3B5 /* AlertPasswordViewController.swift */; };
+		3D749EE61EAADB70001AD3B5 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749EE51EAADB70001AD3B5 /* BaseTableViewController.swift */; };
+		3D749EE81EAAE0F2001AD3B5 /* HTTPService+LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749EE71EAAE0F2001AD3B5 /* HTTPService+LoginModule.swift */; };
+		3D749EEA1EAAE8A7001AD3B5 /* APPStaticURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749EE91EAAE8A7001AD3B5 /* APPStaticURL.swift */; };
+		3DE8030D1EAB7AC3000DC829 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8030C1EAB7AC3000DC829 /* String+Extensions.swift */; };
+		3DE8030F1EAB7D23000DC829 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8030E1EAB7D23000DC829 /* Date+Extensions.swift */; };
+		3DE8032B1EAB9085000DC829 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8032A1EAB9085000DC829 /* UIDevice+Extensions.swift */; };
+		3DE8032D1EAC3A2F000DC829 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8032C1EAC3A2F000DC829 /* UserManager.swift */; };
+		3DF00E1B1EB18FD00091946F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E1A1EB18FD00091946F /* SettingViewController.swift */; };
+		3DF00E1D1EB192810091946F /* SettingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E1C1EB192810091946F /* SettingHeaderView.swift */; };
+		3DF00E1F1EB1E1240091946F /* UINavigationBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E1E1EB1E1240091946F /* UINavigationBar+Extensions.swift */; };
+		3DF00E241EB2E1B40091946F /* AboutToutouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E231EB2E1B40091946F /* AboutToutouViewController.swift */; };
+		3DF00E261EB2E2800091946F /* AppInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E251EB2E2800091946F /* AppInformation.swift */; };
+		3DF00E281EB30C6B0091946F /* AboutToutou.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DF00E271EB30C6B0091946F /* AboutToutou.plist */; };
+		3DF00E2A1EB3104F0091946F /* AboutToutouHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E291EB3104F0091946F /* AboutToutouHeaderView.swift */; };
+		3DF00E2C1EB311870091946F /* AboutToutouFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E2B1EB311870091946F /* AboutToutouFooterView.swift */; };
+		3DF00E2E1EB319950091946F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E2D1EB319950091946F /* WebViewController.swift */; };
+		3DFA77981EA9F0EF00D91967 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA77941EA9F0EF00D91967 /* BaseNavigationController.swift */; };
+		3DFA77991EA9F0EF00D91967 /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA77951EA9F0EF00D91967 /* BaseTabbarController.swift */; };
+		3DFA779A1EA9F0EF00D91967 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA77961EA9F0EF00D91967 /* BaseTableViewCell.swift */; };
+		3DFA779B1EA9F0EF00D91967 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA77971EA9F0EF00D91967 /* BaseViewController.swift */; };
+		3DFA779D1EA9FF0600D91967 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA779C1EA9FF0600D91967 /* UILabel+Extensions.swift */; };
+		3DFA779F1EAA0A1200D91967 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA779E1EAA0A1200D91967 /* UIView+Extensions.swift */; };
+		3DFA77A11EAA1A2700D91967 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA77A01EAA1A2700D91967 /* UIButton+Extensions.swift */; };
+		3DFA77AB1EAA2BC000D91967 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA77AA1EAA2BC000D91967 /* LoginViewController.swift */; };
+		8E614485AAAA274ACFBEDDBA /* Pods_ttFinance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BED9A39520003E25E5257E /* Pods_ttFinance.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A2FB9391151CCA9D1F1FC32 /* Pods-ttFinance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ttFinance.release.xcconfig"; path = "Pods/Target Support Files/Pods-ttFinance/Pods-ttFinance.release.xcconfig"; sourceTree = "<group>"; };
+		3D18C3C21EAEFCE8005675DC /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		3D18C3C41EAF0912005675DC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3D18C3D91EAF440E005675DC /* UserAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAttributes.swift; sourceTree = "<group>"; };
+		3D31A97A1EB82B310069BD8A /* BankCardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardListViewController.swift; sourceTree = "<group>"; };
+		3D31A97C1EB82D740069BD8A /* BankCardListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardListViewCell.swift; sourceTree = "<group>"; };
+		3D31A97E1EB834F70069BD8A /* LoginPasswordSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPasswordSettingViewController.swift; sourceTree = "<group>"; };
+		3D43574E1EB0324100B79B04 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		3D52997C1EA9A3BA0073E3C9 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		3D52997E1EA9A72E0073E3C9 /* ThemeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ThemeStyle.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3D5299801EA9B1430073E3C9 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		3D52998B1EA9E95E0073E3C9 /* MainMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMineViewController.swift; sourceTree = "<group>"; };
+		3D52998D1EA9E9670073E3C9 /* MainMineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMineHeaderView.swift; sourceTree = "<group>"; };
+		3D52998F1EA9E9FD0073E3C9 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		3D5299911EA9EEA10073E3C9 /* MainMine.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MainMine.plist; sourceTree = "<group>"; };
+		3D5299931EA9EFE30073E3C9 /* MainMineViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMineViewCell.swift; sourceTree = "<group>"; };
+		3D5DC1381EAA5C6800F00EA7 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3D6127A81EA8454C00A3D111 /* ttFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ttFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6127B01EA8454C00A3D111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D6127B51EA8454C00A3D111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D6127C01EA84BDE00A3D111 /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
+		3D6127C71EA84C5F00A3D111 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D6127C81EA84C5F00A3D111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D6127C91EA84C5F00A3D111 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6127DC1EA8B57C00A3D111 /* MainTalentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTalentViewController.swift; sourceTree = "<group>"; };
+		3D6127DE1EA8B58800A3D111 /* MainProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainProductViewController.swift; sourceTree = "<group>"; };
+		3D6127E31EA8B63600A3D111 /* MainHoldingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHoldingsViewController.swift; sourceTree = "<group>"; };
+		3D749ED71EAA636F001AD3B5 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		3D749ED91EAA6389001AD3B5 /* RigsterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RigsterViewController.swift; sourceTree = "<group>"; };
+		3D749EDB1EAA6396001AD3B5 /* FogoPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FogoPasswordViewController.swift; sourceTree = "<group>"; };
+		3D749EDD1EAA63BB001AD3B5 /* FogoPasswordVericationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FogoPasswordVericationViewController.swift; sourceTree = "<group>"; };
+		3D749EDF1EAA63D1001AD3B5 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		3D749EE11EAA63DA001AD3B5 /* AlertPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPasswordViewController.swift; sourceTree = "<group>"; };
+		3D749EE51EAADB70001AD3B5 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		3D749EE71EAAE0F2001AD3B5 /* HTTPService+LoginModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTTPService+LoginModule.swift"; sourceTree = "<group>"; };
+		3D749EE91EAAE8A7001AD3B5 /* APPStaticURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPStaticURL.swift; sourceTree = "<group>"; };
+		3DE8030C1EAB7AC3000DC829 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		3DE8030E1EAB7D23000DC829 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		3DE803101EAB8238000DC829 /* ttFinance-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ttFinance-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DE8032A1EAB9085000DC829 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		3DE8032C1EAC3A2F000DC829 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		3DF00E1A1EB18FD00091946F /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3DF00E1C1EB192810091946F /* SettingHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingHeaderView.swift; sourceTree = "<group>"; };
+		3DF00E1E1EB1E1240091946F /* UINavigationBar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extensions.swift"; sourceTree = "<group>"; };
+		3DF00E231EB2E1B40091946F /* AboutToutouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutToutouViewController.swift; sourceTree = "<group>"; };
+		3DF00E251EB2E2800091946F /* AppInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInformation.swift; sourceTree = "<group>"; };
+		3DF00E271EB30C6B0091946F /* AboutToutou.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AboutToutou.plist; sourceTree = "<group>"; };
+		3DF00E291EB3104F0091946F /* AboutToutouHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutToutouHeaderView.swift; sourceTree = "<group>"; };
+		3DF00E2B1EB311870091946F /* AboutToutouFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutToutouFooterView.swift; sourceTree = "<group>"; };
+		3DF00E2D1EB319950091946F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3DFA77941EA9F0EF00D91967 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		3DFA77951EA9F0EF00D91967 /* BaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		3DFA77961EA9F0EF00D91967 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		3DFA77971EA9F0EF00D91967 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3DFA779C1EA9FF0600D91967 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		3DFA779E1EAA0A1200D91967 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		3DFA77A01EAA1A2700D91967 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		3DFA77AA1EAA2BC000D91967 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6387DB9884FE5E125179E0E3 /* Pods-ttFinance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ttFinance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ttFinance/Pods-ttFinance.debug.xcconfig"; sourceTree = "<group>"; };
+		D1BED9A39520003E25E5257E /* Pods_ttFinance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ttFinance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D6127A51EA8454C00A3D111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E614485AAAA274ACFBEDDBA /* Pods_ttFinance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5299841EA9E9040073E3C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D5299851EA9E9040073E3C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D52998D1EA9E9670073E3C9 /* MainMineHeaderView.swift */,
+				3DF00E1C1EB192810091946F /* SettingHeaderView.swift */,
+				3DF00E291EB3104F0091946F /* AboutToutouHeaderView.swift */,
+				3DF00E2B1EB311870091946F /* AboutToutouFooterView.swift */,
+				3D5299931EA9EFE30073E3C9 /* MainMineViewCell.swift */,
+				3D31A97C1EB82D740069BD8A /* BankCardListViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D5299861EA9E9040073E3C9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D52998B1EA9E95E0073E3C9 /* MainMineViewController.swift */,
+				3DF00E1A1EB18FD00091946F /* SettingViewController.swift */,
+				3D31A97A1EB82B310069BD8A /* BankCardListViewController.swift */,
+				3DF00E231EB2E1B40091946F /* AboutToutouViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3D61279F1EA8454C00A3D111 = {
+			isa = PBXGroup;
+			children = (
+				3D6127AA1EA8454C00A3D111 /* ttFinance */,
+				3D6127A91EA8454C00A3D111 /* Products */,
+				5AFCE7F7354E27378B098E3F /* Pods */,
+				EFB92177F454031791D86F59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D6127A91EA8454C00A3D111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D6127A81EA8454C00A3D111 /* ttFinance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D6127AA1EA8454C00A3D111 /* ttFinance */ = {
+			isa = PBXGroup;
+			children = (
+				3D6127D31EA8B1D500A3D111 /* Base */,
+				3D6127C61EA84C0200A3D111 /* Extension */,
+				3D6127C31EA84BEB00A3D111 /* Common */,
+				3D6127C41EA84BEB00A3D111 /* Config */,
+				3D6127BF1EA84BCC00A3D111 /* Tools */,
+				3D6127C21EA84BE500A3D111 /* Main */,
+				3D6127C51EA84BF300A3D111 /* Resource */,
+			);
+			path = ttFinance;
+			sourceTree = "<group>";
+		};
+		3D6127BF1EA84BCC00A3D111 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3D6127C01EA84BDE00A3D111 /* HTTPService.swift */,
+				3D749EE71EAAE0F2001AD3B5 /* HTTPService+LoginModule.swift */,
+				3D52997E1EA9A72E0073E3C9 /* ThemeStyle.swift */,
+				3DE8032C1EAC3A2F000DC829 /* UserManager.swift */,
+				3D43574E1EB0324100B79B04 /* HUD.swift */,
+				3DF00E251EB2E2800091946F /* AppInformation.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3D6127C21EA84BE500A3D111 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA77A61EAA2BAA00D91967 /* Login&Register */,
+				3D6127DA1EA8B56B00A3D111 /* MainProduct */,
+				3D6127DB1EA8B56B00A3D111 /* MainTalent */,
+				3D6127E21EA8B63600A3D111 /* MainHoldings */,
+				3D6127D81EA8B56B00A3D111 /* MainMine */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3D6127C31EA84BEB00A3D111 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3DF00E2D1EB319950091946F /* WebViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3D6127C41EA84BEB00A3D111 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3D52998F1EA9E9FD0073E3C9 /* AppConfig.swift */,
+				3D749EE91EAAE8A7001AD3B5 /* APPStaticURL.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3D6127C51EA84BF300A3D111 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3D6127C71EA84C5F00A3D111 /* AppDelegate.swift */,
+				3D6127C81EA84C5F00A3D111 /* Assets.xcassets */,
+				3D5299911EA9EEA10073E3C9 /* MainMine.plist */,
+				3DF00E271EB30C6B0091946F /* AboutToutou.plist */,
+				3D6127C91EA84C5F00A3D111 /* Info.plist */,
+				3D6127AF1EA8454C00A3D111 /* Main.storyboard */,
+				3D6127B41EA8454C00A3D111 /* LaunchScreen.storyboard */,
+				3DE803101EAB8238000DC829 /* ttFinance-Bridging-Header.h */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3D6127C61EA84C0200A3D111 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D52997C1EA9A3BA0073E3C9 /* UIColor+Extensions.swift */,
+				3D5299801EA9B1430073E3C9 /* UIImage+Extensions.swift */,
+				3DFA779C1EA9FF0600D91967 /* UILabel+Extensions.swift */,
+				3DFA779E1EAA0A1200D91967 /* UIView+Extensions.swift */,
+				3DFA77A01EAA1A2700D91967 /* UIButton+Extensions.swift */,
+				3DE8030C1EAB7AC3000DC829 /* String+Extensions.swift */,
+				3DE8030E1EAB7D23000DC829 /* Date+Extensions.swift */,
+				3DE8032A1EAB9085000DC829 /* UIDevice+Extensions.swift */,
+				3DF00E1E1EB1E1240091946F /* UINavigationBar+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3D6127D31EA8B1D500A3D111 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA77941EA9F0EF00D91967 /* BaseNavigationController.swift */,
+				3DFA77951EA9F0EF00D91967 /* BaseTabbarController.swift */,
+				3DFA77961EA9F0EF00D91967 /* BaseTableViewCell.swift */,
+				3DFA77971EA9F0EF00D91967 /* BaseViewController.swift */,
+				3D749EE51EAADB70001AD3B5 /* BaseTableViewController.swift */,
+				3D18C3C21EAEFCE8005675DC /* BaseModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3D6127D81EA8B56B00A3D111 /* MainMine */ = {
+			isa = PBXGroup;
+			children = (
+				3D5299841EA9E9040073E3C9 /* Model */,
+				3D5299851EA9E9040073E3C9 /* View */,
+				3D5299861EA9E9040073E3C9 /* ViewController */,
+			);
+			path = MainMine;
+			sourceTree = "<group>";
+		};
+		3D6127DA1EA8B56B00A3D111 /* MainProduct */ = {
+			isa = PBXGroup;
+			children = (
+				3D6127DE1EA8B58800A3D111 /* MainProductViewController.swift */,
+			);
+			path = MainProduct;
+			sourceTree = "<group>";
+		};
+		3D6127DB1EA8B56B00A3D111 /* MainTalent */ = {
+			isa = PBXGroup;
+			children = (
+				3D6127DC1EA8B57C00A3D111 /* MainTalentViewController.swift */,
+			);
+			path = MainTalent;
+			sourceTree = "<group>";
+		};
+		3D6127E21EA8B63600A3D111 /* MainHoldings */ = {
+			isa = PBXGroup;
+			children = (
+				3D6127E31EA8B63600A3D111 /* MainHoldingsViewController.swift */,
+			);
+			path = MainHoldings;
+			sourceTree = "<group>";
+		};
+		3DFA77A61EAA2BAA00D91967 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA77A71EAA2BAA00D91967 /* Model */,
+				3DFA77A81EAA2BAA00D91967 /* View */,
+				3DFA77A91EAA2BAA00D91967 /* ViewController */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		3DFA77A71EAA2BAA00D91967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D18C3C41EAF0912005675DC /* User.swift */,
+				3D18C3D91EAF440E005675DC /* UserAttributes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DFA77A81EAA2BAA00D91967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D5DC1381EAA5C6800F00EA7 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DFA77A91EAA2BAA00D91967 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D749ED71EAA636F001AD3B5 /* Login.storyboard */,
+				3DFA77AA1EAA2BC000D91967 /* LoginViewController.swift */,
+				3D749ED91EAA6389001AD3B5 /* RigsterViewController.swift */,
+				3D31A97E1EB834F70069BD8A /* LoginPasswordSettingViewController.swift */,
+				3D749EDB1EAA6396001AD3B5 /* FogoPasswordViewController.swift */,
+				3D749EDD1EAA63BB001AD3B5 /* FogoPasswordVericationViewController.swift */,
+				3D749EDF1EAA63D1001AD3B5 /* ResetPasswordViewController.swift */,
+				3D749EE11EAA63DA001AD3B5 /* AlertPasswordViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5AFCE7F7354E27378B098E3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6387DB9884FE5E125179E0E3 /* Pods-ttFinance.debug.xcconfig */,
+				3A2FB9391151CCA9D1F1FC32 /* Pods-ttFinance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFB92177F454031791D86F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1BED9A39520003E25E5257E /* Pods_ttFinance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D6127A71EA8454C00A3D111 /* ttFinance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6127BA1EA8454C00A3D111 /* Build configuration list for PBXNativeTarget "ttFinance" */;
+			buildPhases = (
+				D56D14FC23C93C4F8C6D6DB7 /* [CP] Check Pods Manifest.lock */,
+				3D6127A41EA8454C00A3D111 /* Sources */,
+				3D6127A51EA8454C00A3D111 /* Frameworks */,
+				3D6127A61EA8454C00A3D111 /* Resources */,
+				EEFE6D625F90B84111434EDB /* [CP] Embed Pods Frameworks */,
+				79E67F7554DD3348007C4DA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ttFinance;
+			productName = ttFinance;
+			productReference = 3D6127A81EA8454C00A3D111 /* ttFinance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D6127A01EA8454C00A3D111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shanghai Youyou Finance Information Technology Co.,Ltd";
+				TargetAttributes = {
+					3D6127A71EA8454C00A3D111 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BV4X52Q8EC;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D6127A31EA8454C00A3D111 /* Build configuration list for PBXProject "ttFinance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D61279F1EA8454C00A3D111;
+			productRefGroup = 3D6127A91EA8454C00A3D111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D6127A71EA8454C00A3D111 /* ttFinance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D6127A61EA8454C00A3D111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6127B61EA8454C00A3D111 /* LaunchScreen.storyboard in Resources */,
+				3D6127CB1EA84C5F00A3D111 /* Assets.xcassets in Resources */,
+				3DF00E281EB30C6B0091946F /* AboutToutou.plist in Resources */,
+				3D5299921EA9EEA10073E3C9 /* MainMine.plist in Resources */,
+				3D749ED81EAA636F001AD3B5 /* Login.storyboard in Resources */,
+				3D6127B11EA8454C00A3D111 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79E67F7554DD3348007C4DA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ttFinance/Pods-ttFinance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56D14FC23C93C4F8C6D6DB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEFE6D625F90B84111434EDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ttFinance/Pods-ttFinance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D6127A41EA8454C00A3D111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF00E2A1EB3104F0091946F /* AboutToutouHeaderView.swift in Sources */,
+				3DFA77A11EAA1A2700D91967 /* UIButton+Extensions.swift in Sources */,
+				3DFA77981EA9F0EF00D91967 /* BaseNavigationController.swift in Sources */,
+				3D6127DD1EA8B57C00A3D111 /* MainTalentViewController.swift in Sources */,
+				3DFA779D1EA9FF0600D91967 /* UILabel+Extensions.swift in Sources */,
+				3D749EEA1EAAE8A7001AD3B5 /* APPStaticURL.swift in Sources */,
+				3D18C3DA1EAF440E005675DC /* UserAttributes.swift in Sources */,
+				3D43574F1EB0324100B79B04 /* HUD.swift in Sources */,
+				3DFA77991EA9F0EF00D91967 /* BaseTabbarController.swift in Sources */,
+				3D6127E41EA8B63600A3D111 /* MainHoldingsViewController.swift in Sources */,
+				3D5299901EA9E9FD0073E3C9 /* AppConfig.swift in Sources */,
+				3D749EE01EAA63D1001AD3B5 /* ResetPasswordViewController.swift in Sources */,
+				3D31A97F1EB834F70069BD8A /* LoginPasswordSettingViewController.swift in Sources */,
+				3DE8032D1EAC3A2F000DC829 /* UserManager.swift in Sources */,
+				3DE8032B1EAB9085000DC829 /* UIDevice+Extensions.swift in Sources */,
+				3D52998E1EA9E9670073E3C9 /* MainMineHeaderView.swift in Sources */,
+				3DE8030D1EAB7AC3000DC829 /* String+Extensions.swift in Sources */,
+				3D18C3C51EAF0912005675DC /* User.swift in Sources */,
+				3DFA77AB1EAA2BC000D91967 /* LoginViewController.swift in Sources */,
+				3D6127CA1EA84C5F00A3D111 /* AppDelegate.swift in Sources */,
+				3D5299811EA9B1430073E3C9 /* UIImage+Extensions.swift in Sources */,
+				3D749EE21EAA63DA001AD3B5 /* AlertPasswordViewController.swift in Sources */,
+				3D5299941EA9EFE30073E3C9 /* MainMineViewCell.swift in Sources */,
+				3D6127C11EA84BDE00A3D111 /* HTTPService.swift in Sources */,
+				3D52998C1EA9E95E0073E3C9 /* MainMineViewController.swift in Sources */,
+				3D749EDE1EAA63BB001AD3B5 /* FogoPasswordVericationViewController.swift in Sources */,
+				3D749EDC1EAA6396001AD3B5 /* FogoPasswordViewController.swift in Sources */,
+				3D749EE61EAADB70001AD3B5 /* BaseTableViewController.swift in Sources */,
+				3DF00E1F1EB1E1240091946F /* UINavigationBar+Extensions.swift in Sources */,
+				3DF00E2E1EB319950091946F /* WebViewController.swift in Sources */,
+				3D749EE81EAAE0F2001AD3B5 /* HTTPService+LoginModule.swift in Sources */,
+				3DF00E261EB2E2800091946F /* AppInformation.swift in Sources */,
+				3DFA779F1EAA0A1200D91967 /* UIView+Extensions.swift in Sources */,
+				3D749EDA1EAA6389001AD3B5 /* RigsterViewController.swift in Sources */,
+				3D5DC1391EAA5C6800F00EA7 /* LoginView.swift in Sources */,
+				3D52997F1EA9A72E0073E3C9 /* ThemeStyle.swift in Sources */,
+				3D18C3C31EAEFCE8005675DC /* BaseModel.swift in Sources */,
+				3D31A97D1EB82D740069BD8A /* BankCardListViewCell.swift in Sources */,
+				3D6127DF1EA8B58800A3D111 /* MainProductViewController.swift in Sources */,
+				3DE8030F1EAB7D23000DC829 /* Date+Extensions.swift in Sources */,
+				3DF00E241EB2E1B40091946F /* AboutToutouViewController.swift in Sources */,
+				3DFA779B1EA9F0EF00D91967 /* BaseViewController.swift in Sources */,
+				3DF00E2C1EB311870091946F /* AboutToutouFooterView.swift in Sources */,
+				3DF00E1B1EB18FD00091946F /* SettingViewController.swift in Sources */,
+				3DFA779A1EA9F0EF00D91967 /* BaseTableViewCell.swift in Sources */,
+				3D52997D1EA9A3BA0073E3C9 /* UIColor+Extensions.swift in Sources */,
+				3D31A97B1EB82B310069BD8A /* BankCardListViewController.swift in Sources */,
+				3DF00E1D1EB192810091946F /* SettingHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D6127AF1EA8454C00A3D111 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6127B01EA8454C00A3D111 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D6127B41EA8454C00A3D111 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6127B51EA8454C00A3D111 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D6127B81EA8454C00A3D111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D6127B91EA8454C00A3D111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D6127BB1EA8454C00A3D111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6387DB9884FE5E125179E0E3 /* Pods-ttFinance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BV4X52Q8EC;
+				INFOPLIST_FILE = "$(SRCROOT)/ttFinance/Resource/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusoft.tt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ttFinance/Resource/ttFinance-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D6127BC1EA8454C00A3D111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2FB9391151CCA9D1F1FC32 /* Pods-ttFinance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BV4X52Q8EC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SnapKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/ttFinance/Resource/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusoft.tt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ttFinance/Resource/ttFinance-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D6127A31EA8454C00A3D111 /* Build configuration list for PBXProject "ttFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6127B81EA8454C00A3D111 /* Debug */,
+				3D6127B91EA8454C00A3D111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6127BA1EA8454C00A3D111 /* Build configuration list for PBXNativeTarget "ttFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6127BB1EA8454C00A3D111 /* Debug */,
+				3D6127BC1EA8454C00A3D111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D6127A01EA8454C00A3D111 /* Project object */;
+}

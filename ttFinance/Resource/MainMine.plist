@@ -1,0 +1,48 @@
+(
+	(
+		{
+			title = "\U6211\U7684\U81ea\U9009";
+			imageName = "new_wodezixuan";
+			action = mineFavouris;
+		},
+		{
+			action = mineAttentions;
+			imageName = "new_wodetouyou";
+			title = "\U6211\U7684\U5173\U6ce8";
+		},
+	),
+	(
+		{
+			action = activitiesCenter;
+			imageName = "new_huodongzhongxin";
+			title = "\U6d3b\U52a8\U4e2d\U5fc3";
+		},
+		{
+			action = invitateFriends;
+			imageName = "new_yaoqinghaoyou";
+			title = "\U9080\U8bf7\U597d\U53cb";
+		},
+	),
+	(
+		{
+			action = "talentoAuthentication";
+			imageName = "daren_auth_icon";
+			title = "\U8fbe\U4eba\U8ba4\U8bc1";
+		},
+		{
+			action = riskEvaluation;
+			imageName = "new_fxcp";
+			title = "\U98ce\U9669\U6d4b\U8bc4";
+		},
+		{
+			action = feedBack;
+			imageName = "new_yhfk";
+			title = "\U7528\U6237\U53cd\U9988";
+		},
+		{
+			action = aboutTT;
+			imageName = "new_gytt";
+			title = "\U5173\U4e8e\U6295\U6295";
+		},
+	),
+)
