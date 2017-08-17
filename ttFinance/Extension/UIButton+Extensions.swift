@@ -10,7 +10,7 @@ import UIKit
 
 extension UIButton {
     
-    convenience init(title:String = "", titleColor: UIColor = UIColor.white, titleFont: UIFont = AppConstantFont._14px,image: UIImage = UIImage(),selectedImage:UIImage = UIImage(), redius: CGFloat = 0,  borderWidth: CGFloat = 0, borderColor:UIColor = UIColor.clear) {
+    convenience init(title:String = "", titleColor: UIColor = UIColor.white, titleFont: UIFont = AppConstantFont._14px,image: UIImage? = UIImage(),selectedImage:UIImage? = UIImage(), redius: CGFloat = 0,  borderWidth: CGFloat = 0, borderColor:UIColor = UIColor.clear) {
     
         self.init()
         self.setTitle(title, for: .normal)

@@ -10,7 +10,7 @@ import UIKit
 
 private let sectionHeight: CGFloat = 10.0
 
-class AboutToutouViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource {
+class AboutToutouViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource,UIActionSheetDelegate {
 
     var tableView: UITableView?
     var dataArray: NSArray?
@@ -73,7 +73,8 @@ class AboutToutouViewController: BaseViewController,UITableViewDelegate,UITableV
         let cell:MainMineViewCell = tableView.dequeueReusableCell(withIdentifier: mainMineCellId) as! MainMineViewCell
         
         let array:NSArray = (dataArray![indexPath.section] as? NSArray)!
-        cell.fill(indexPath: indexPath, item:(array[indexPath.row]) as! NSDictionary)
+        cell.fill(item:(array[indexPath.row]) as! NSDictionary)
+        cell.about(indexPath:indexPath)
         return cell
         
     }
@@ -110,11 +111,44 @@ class AboutToutouViewController: BaseViewController,UITableViewDelegate,UITableV
      */
     func aboutTT() {
     
-        let url:String = AppURL.abountToutou;
+        let url:String = AppStaticURL.abountToutou;
     
         let vc: WebViewController = WebViewController(url: url)
         vc.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    
+    /*
+     * 安全保障
+     */
+    func security(){
+        
+        let url:String = AppStaticURL.security
+        
+        let vc: WebViewController  = WebViewController(url: url)
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    /*
+     *  常见问题
+     */
+    func commonProblems() {
+        let url:String = AppStaticURL.question
+        
+        let vc: WebViewController  = WebViewController(url: url)
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    /*
+     *  客户服务
+     */
+    func serviceTelephone() {
+      
+        let sheet  = ServiceSheet()
+        
+        sheet.show()
+    }
 }

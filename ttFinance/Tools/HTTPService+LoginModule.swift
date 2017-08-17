@@ -20,7 +20,7 @@ extension HTTPService {
             "wechatId" : "",
         ]
     
-        return  self.request(method: .post, url: AppURL.system,buildType:AppRequestType.LG001, paramters: paramters) { (result, error) in
+        return  self.request(method: .post, url: AppRequestURL.system,buildType:AppRequestType.LG001, paramters: paramters) { (result, error) in
             
             guard  result != nil else {
                 completion(BaseModel(message: error?.localizedDescription))
@@ -53,7 +53,7 @@ extension HTTPService {
      
         let param = ["userID" : String.check(userID)]
         
-        return  self.request(method: .post, url: AppURL.system,buildType:AppRequestType.UA001, paramters:param ) { (result, error) in
+        return  self.request(method: .post, url: AppRequestURL.system,buildType:AppRequestType.UA001, paramters:param ) { (result, error) in
             
             guard  result != nil else {
                 completion(BaseModel(message: error?.localizedDescription))
@@ -79,8 +79,8 @@ extension HTTPService {
     @discardableResult
     func userBasicInformation(completion:@escaping(_ result:BaseModel)->()) -> URLSessionTask {
         
-        let param = ["userID" : String.check(UserManager.sharedInstance.user?.userID)]
-        return  self.request(method: .post, url: AppURL.secondmy,buildType:AppRequestType.MY011, paramters:param ) { (result, error) in
+        let param: [String : Any] = ["userID" : String.check(UserManager.sharedInstance.user?.userID)]
+        return  self.request(method: .post, url: AppRequestURL.secondmy,buildType:AppRequestType.MY011, paramters:param ) { (result, error) in
             
             guard  result != nil else {
                 completion(BaseModel(message: error?.localizedDescription))
@@ -108,9 +108,9 @@ extension HTTPService {
     @discardableResult
     func logout(completion:@escaping(_ result:BaseModel)->()) -> URLSessionTask {
         let userID =  UserManager.sharedInstance.user?.userID
-        let param = ["userID" : String.check(userID)]
+        let param: [String : Any] = ["userID" : String.check(userID)]
 
-        return  self.request(method: .post, url: AppURL.system,buildType:AppRequestType.LG002, paramters:param ) { (result, error) in
+        return  self.request(method: .post, url: AppRequestURL.system,buildType:AppRequestType.LG002, paramters:param ) { (result, error) in
             
             guard  result != nil else {
                 completion(BaseModel(message: error?.localizedDescription))

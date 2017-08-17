@@ -8,18 +8,27 @@
 
 import UIKit
 
-struct AppURL {
-  
+struct AppStaticURL {
+
+    // 关于投投
+    static let abountToutou = "https://wx.toutoujinrong.com/html/app/about-toutou.html"
+    
+    // 安全保障
+    static let security = "https://wx.toutoujinrong.com/html/app/security-toutou.html"
+    
+    static let question = "https://wx.toutoujinrong.com/wx/html/vipUser/html/help-faq.html"
+}
+
+
+struct AppRequestURL {
+    
     static let global = "https://mapi.toutoujinrong.com/gzip/optt/munions/"
     
     static let system = "system/ttfunction.json"
     
     static let secondmy = "secondmy/ttfunction.json"
-    
-    
-    
-    static let abountToutou = "https://wx.toutoujinrong.com/html/app/about-toutou.html"
 }
+
 
 struct AppRequestType {
     

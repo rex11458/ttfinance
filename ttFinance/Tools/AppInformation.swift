@@ -86,4 +86,7 @@ struct AppInformation {
         }
     }
     
+    static let size:CGSize = UIScreen.main.bounds.size
+    static let width = size.width
+    static let height = size.height
 }

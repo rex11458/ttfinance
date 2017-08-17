@@ -19,7 +19,7 @@ struct AppConstantColor {
      *  企业形象色，网站风格色，主要控件、导航、申购按钮、推荐标签、
      *  icon、重要文字
      */
-    static let main = UIColor(0xFF8800)
+    static let main = UIColor(0xF2590D)
     
     /*
      *  辅助色
@@ -76,7 +76,11 @@ struct AppConstantColor {
      *  cell选中后颜色
      */
     static let selected = UIColor(white: 0.8, alpha: 0.2)
-
+    
+    /*
+     *  模态框背景颜色
+     */
+    static let modal = UIColor(white: 0.2, alpha: 0.65)
 }
 
 struct AppConstantFont {
@@ -205,6 +209,18 @@ struct AppConstantMargin {
 
 }
 
+struct AppAnimationDuration {
+    
+    static let duration_25 = 0.25
+}
 
+struct AppContactInformation {
+    static let qq1 = "3251175668"
+    static let qq2 = "2957096294"
+    static let qq3 = "2640782936"
+    static let tel = "4001666788"
+
+
+}
 
 

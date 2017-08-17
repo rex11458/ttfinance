@@ -27,7 +27,6 @@
 		3D6127B61EA8454C00A3D111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6127B41EA8454C00A3D111 /* LaunchScreen.storyboard */; };
 		3D6127C11EA84BDE00A3D111 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127C01EA84BDE00A3D111 /* HTTPService.swift */; };
 		3D6127CA1EA84C5F00A3D111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127C71EA84C5F00A3D111 /* AppDelegate.swift */; };
-		3D6127CB1EA84C5F00A3D111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6127C81EA84C5F00A3D111 /* Assets.xcassets */; };
 		3D6127DD1EA8B57C00A3D111 /* MainTalentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127DC1EA8B57C00A3D111 /* MainTalentViewController.swift */; };
 		3D6127DF1EA8B58800A3D111 /* MainProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127DE1EA8B58800A3D111 /* MainProductViewController.swift */; };
 		3D6127E41EA8B63600A3D111 /* MainHoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127E31EA8B63600A3D111 /* MainHoldingsViewController.swift */; };
@@ -53,6 +52,8 @@
 		3DF00E2A1EB3104F0091946F /* AboutToutouHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E291EB3104F0091946F /* AboutToutouHeaderView.swift */; };
 		3DF00E2C1EB311870091946F /* AboutToutouFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E2B1EB311870091946F /* AboutToutouFooterView.swift */; };
 		3DF00E2E1EB319950091946F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF00E2D1EB319950091946F /* WebViewController.swift */; };
+		3DF6763E1F4568C100E31507 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF6763D1F4568C100E31507 /* Images.xcassets */; };
+		3DF676401F457BAA00E31507 /* ServiceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF6763F1F457BAA00E31507 /* ServiceSheet.swift */; };
 		3DFA77981EA9F0EF00D91967 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA77941EA9F0EF00D91967 /* BaseNavigationController.swift */; };
 		3DFA77991EA9F0EF00D91967 /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA77951EA9F0EF00D91967 /* BaseTabbarController.swift */; };
 		3DFA779A1EA9F0EF00D91967 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA77961EA9F0EF00D91967 /* BaseTableViewCell.swift */; };
@@ -87,7 +88,6 @@
 		3D6127B51EA8454C00A3D111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D6127C01EA84BDE00A3D111 /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
 		3D6127C71EA84C5F00A3D111 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D6127C81EA84C5F00A3D111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D6127C91EA84C5F00A3D111 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D6127DC1EA8B57C00A3D111 /* MainTalentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTalentViewController.swift; sourceTree = "<group>"; };
 		3D6127DE1EA8B58800A3D111 /* MainProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainProductViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +115,8 @@
 		3DF00E291EB3104F0091946F /* AboutToutouHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutToutouHeaderView.swift; sourceTree = "<group>"; };
 		3DF00E2B1EB311870091946F /* AboutToutouFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutToutouFooterView.swift; sourceTree = "<group>"; };
 		3DF00E2D1EB319950091946F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3DF6763D1F4568C100E31507 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DF6763F1F457BAA00E31507 /* ServiceSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceSheet.swift; sourceTree = "<group>"; };
 		3DFA77941EA9F0EF00D91967 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		3DFA77951EA9F0EF00D91967 /* BaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
 		3DFA77961EA9F0EF00D91967 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				3DF00E291EB3104F0091946F /* AboutToutouHeaderView.swift */,
 				3DF00E2B1EB311870091946F /* AboutToutouFooterView.swift */,
 				3D5299931EA9EFE30073E3C9 /* MainMineViewCell.swift */,
+				3DF6763F1F457BAA00E31507 /* ServiceSheet.swift */,
 				3D31A97C1EB82D740069BD8A /* BankCardListViewCell.swift */,
 			);
 			path = View;
@@ -247,8 +250,8 @@
 		3D6127C51EA84BF300A3D111 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3DF6763D1F4568C100E31507 /* Images.xcassets */,
 				3D6127C71EA84C5F00A3D111 /* AppDelegate.swift */,
-				3D6127C81EA84C5F00A3D111 /* Assets.xcassets */,
 				3D5299911EA9EEA10073E3C9 /* MainMine.plist */,
 				3DF00E271EB30C6B0091946F /* AboutToutou.plist */,
 				3D6127C91EA84C5F00A3D111 /* Info.plist */,
@@ -446,9 +449,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6127B61EA8454C00A3D111 /* LaunchScreen.storyboard in Resources */,
-				3D6127CB1EA84C5F00A3D111 /* Assets.xcassets in Resources */,
 				3DF00E281EB30C6B0091946F /* AboutToutou.plist in Resources */,
 				3D5299921EA9EEA10073E3C9 /* MainMine.plist in Resources */,
+				3DF6763E1F4568C100E31507 /* Images.xcassets in Resources */,
 				3D749ED81EAA636F001AD3B5 /* Login.storyboard in Resources */,
 				3D6127B11EA8454C00A3D111 /* Main.storyboard in Resources */,
 			);
@@ -518,6 +521,7 @@
 				3D18C3DA1EAF440E005675DC /* UserAttributes.swift in Sources */,
 				3D43574F1EB0324100B79B04 /* HUD.swift in Sources */,
 				3DFA77991EA9F0EF00D91967 /* BaseTabbarController.swift in Sources */,
+				3DF676401F457BAA00E31507 /* ServiceSheet.swift in Sources */,
 				3D6127E41EA8B63600A3D111 /* MainHoldingsViewController.swift in Sources */,
 				3D5299901EA9E9FD0073E3C9 /* AppConfig.swift in Sources */,
 				3D749EE01EAA63D1001AD3B5 /* ResetPasswordViewController.swift in Sources */,

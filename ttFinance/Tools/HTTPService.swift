@@ -13,7 +13,7 @@ import SwiftyJSON
 class HTTPService: SessionManager {
     
     var baseURL:String {
-        return AppURL.global
+        return AppRequestURL.global
     }
    static let sharedInstance = HTTPService()
     

@@ -106,7 +106,7 @@ class SettingViewController: BaseViewController,UITableViewDataSource,UITableVie
         let cell:MainMineViewCell = tableView.dequeueReusableCell(withIdentifier: mainMineCellId) as! MainMineViewCell
 
         let array:NSArray = (dataArray[indexPath.section] as? NSArray)!
-        cell.fill(indexPath: indexPath, item:(array[indexPath.row]) as! NSDictionary)
+        cell.fill(item:(array[indexPath.row]) as! NSDictionary)
         return cell
                 
     }
