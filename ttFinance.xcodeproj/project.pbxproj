@@ -10,6 +10,9 @@
 		3D18C3C31EAEFCE8005675DC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18C3C21EAEFCE8005675DC /* BaseModel.swift */; };
 		3D18C3C51EAF0912005675DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18C3C41EAF0912005675DC /* User.swift */; };
 		3D18C3DA1EAF440E005675DC /* UserAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18C3D91EAF440E005675DC /* UserAttributes.swift */; };
+		3D2C1CC31F58FAAE0023DDCE /* MineFavourisContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C1CC21F58FAAE0023DDCE /* MineFavourisContainerViewController.swift */; };
+		3D2C1CC51F58FD740023DDCE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C1CC41F58FD740023DDCE /* PageViewController.swift */; };
+		3D2C1CC71F5940AD0023DDCE /* MineFavouriseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2C1CC61F5940AD0023DDCE /* MineFavouriseViewController.swift */; };
 		3D31A97B1EB82B310069BD8A /* BankCardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A97A1EB82B310069BD8A /* BankCardListViewController.swift */; };
 		3D31A97D1EB82D740069BD8A /* BankCardListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A97C1EB82D740069BD8A /* BankCardListViewCell.swift */; };
 		3D31A97F1EB834F70069BD8A /* LoginPasswordSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31A97E1EB834F70069BD8A /* LoginPasswordSettingViewController.swift */; };
@@ -30,6 +33,8 @@
 		3D6127DD1EA8B57C00A3D111 /* MainTalentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127DC1EA8B57C00A3D111 /* MainTalentViewController.swift */; };
 		3D6127DF1EA8B58800A3D111 /* MainProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127DE1EA8B58800A3D111 /* MainProductViewController.swift */; };
 		3D6127E41EA8B63600A3D111 /* MainHoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6127E31EA8B63600A3D111 /* MainHoldingsViewController.swift */; };
+		3D694D081F468517008BF78D /* MessageCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D694D071F468517008BF78D /* MessageCenterViewController.swift */; };
+		3D694D0A1F46889B008BF78D /* HTTPService+MessageCenterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D694D091F46889B008BF78D /* HTTPService+MessageCenterModule.swift */; };
 		3D749ED81EAA636F001AD3B5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D749ED71EAA636F001AD3B5 /* Login.storyboard */; };
 		3D749EDA1EAA6389001AD3B5 /* RigsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749ED91EAA6389001AD3B5 /* RigsterViewController.swift */; };
 		3D749EDC1EAA6396001AD3B5 /* FogoPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D749EDB1EAA6396001AD3B5 /* FogoPasswordViewController.swift */; };
@@ -70,6 +75,9 @@
 		3D18C3C21EAEFCE8005675DC /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		3D18C3C41EAF0912005675DC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3D18C3D91EAF440E005675DC /* UserAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAttributes.swift; sourceTree = "<group>"; };
+		3D2C1CC21F58FAAE0023DDCE /* MineFavourisContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineFavourisContainerViewController.swift; sourceTree = "<group>"; };
+		3D2C1CC41F58FD740023DDCE /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		3D2C1CC61F5940AD0023DDCE /* MineFavouriseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineFavouriseViewController.swift; sourceTree = "<group>"; };
 		3D31A97A1EB82B310069BD8A /* BankCardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardListViewController.swift; sourceTree = "<group>"; };
 		3D31A97C1EB82D740069BD8A /* BankCardListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankCardListViewCell.swift; sourceTree = "<group>"; };
 		3D31A97E1EB834F70069BD8A /* LoginPasswordSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPasswordSettingViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +100,8 @@
 		3D6127DC1EA8B57C00A3D111 /* MainTalentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTalentViewController.swift; sourceTree = "<group>"; };
 		3D6127DE1EA8B58800A3D111 /* MainProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainProductViewController.swift; sourceTree = "<group>"; };
 		3D6127E31EA8B63600A3D111 /* MainHoldingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHoldingsViewController.swift; sourceTree = "<group>"; };
+		3D694D071F468517008BF78D /* MessageCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCenterViewController.swift; sourceTree = "<group>"; };
+		3D694D091F46889B008BF78D /* HTTPService+MessageCenterModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTTPService+MessageCenterModule.swift"; sourceTree = "<group>"; };
 		3D749ED71EAA636F001AD3B5 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		3D749ED91EAA6389001AD3B5 /* RigsterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RigsterViewController.swift; sourceTree = "<group>"; };
 		3D749EDB1EAA6396001AD3B5 /* FogoPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FogoPasswordViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +179,9 @@
 				3DF00E1A1EB18FD00091946F /* SettingViewController.swift */,
 				3D31A97A1EB82B310069BD8A /* BankCardListViewController.swift */,
 				3DF00E231EB2E1B40091946F /* AboutToutouViewController.swift */,
+				3D694D071F468517008BF78D /* MessageCenterViewController.swift */,
+				3D2C1CC21F58FAAE0023DDCE /* MineFavourisContainerViewController.swift */,
+				3D2C1CC61F5940AD0023DDCE /* MineFavouriseViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -210,6 +223,7 @@
 			children = (
 				3D6127C01EA84BDE00A3D111 /* HTTPService.swift */,
 				3D749EE71EAAE0F2001AD3B5 /* HTTPService+LoginModule.swift */,
+				3D694D091F46889B008BF78D /* HTTPService+MessageCenterModule.swift */,
 				3D52997E1EA9A72E0073E3C9 /* ThemeStyle.swift */,
 				3DE8032C1EAC3A2F000DC829 /* UserManager.swift */,
 				3D43574E1EB0324100B79B04 /* HUD.swift */,
@@ -234,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				3DF00E2D1EB319950091946F /* WebViewController.swift */,
+				3D2C1CC41F58FD740023DDCE /* PageViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -537,6 +552,7 @@
 				3D749EE21EAA63DA001AD3B5 /* AlertPasswordViewController.swift in Sources */,
 				3D5299941EA9EFE30073E3C9 /* MainMineViewCell.swift in Sources */,
 				3D6127C11EA84BDE00A3D111 /* HTTPService.swift in Sources */,
+				3D2C1CC51F58FD740023DDCE /* PageViewController.swift in Sources */,
 				3D52998C1EA9E95E0073E3C9 /* MainMineViewController.swift in Sources */,
 				3D749EDE1EAA63BB001AD3B5 /* FogoPasswordVericationViewController.swift in Sources */,
 				3D749EDC1EAA6396001AD3B5 /* FogoPasswordViewController.swift in Sources */,
@@ -551,6 +567,9 @@
 				3D52997F1EA9A72E0073E3C9 /* ThemeStyle.swift in Sources */,
 				3D18C3C31EAEFCE8005675DC /* BaseModel.swift in Sources */,
 				3D31A97D1EB82D740069BD8A /* BankCardListViewCell.swift in Sources */,
+				3D694D0A1F46889B008BF78D /* HTTPService+MessageCenterModule.swift in Sources */,
+				3D694D081F468517008BF78D /* MessageCenterViewController.swift in Sources */,
+				3D2C1CC71F5940AD0023DDCE /* MineFavouriseViewController.swift in Sources */,
 				3D6127DF1EA8B58800A3D111 /* MainProductViewController.swift in Sources */,
 				3DE8030F1EAB7D23000DC829 /* Date+Extensions.swift in Sources */,
 				3DF00E241EB2E1B40091946F /* AboutToutouViewController.swift in Sources */,
@@ -558,6 +577,7 @@
 				3DF00E2C1EB311870091946F /* AboutToutouFooterView.swift in Sources */,
 				3DF00E1B1EB18FD00091946F /* SettingViewController.swift in Sources */,
 				3DFA779A1EA9F0EF00D91967 /* BaseTableViewCell.swift in Sources */,
+				3D2C1CC31F58FAAE0023DDCE /* MineFavourisContainerViewController.swift in Sources */,
 				3D52997D1EA9A3BA0073E3C9 /* UIColor+Extensions.swift in Sources */,
 				3D31A97B1EB82B310069BD8A /* BankCardListViewController.swift in Sources */,
 				3DF00E1D1EB192810091946F /* SettingHeaderView.swift in Sources */,

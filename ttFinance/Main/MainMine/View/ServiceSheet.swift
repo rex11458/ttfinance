@@ -15,8 +15,6 @@ class ServiceSheet: UIView {
     var nums:NSArray?
     var images:NSArray?
     
-    var selectedIndex:((_ index:UInt)->())?
-    
     convenience init() {
         self.init(frame: CGRect.zero)
         

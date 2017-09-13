@@ -12,7 +12,7 @@ extension HTTPService {
     
     @discardableResult
     func login(phone:String, password: String,completion:@escaping(_ result:BaseModel)->()) -> URLSessionTask {
-        let paramters = [
+        let paramters: [String : Any] = [
             "mobile" : String.check(phone),
             "password" : password.secure(),
             "deviceNo" : UIDevice.uuidString(),
@@ -51,7 +51,7 @@ extension HTTPService {
     @discardableResult
     func userProperty(userID:String, completion:@escaping(_ result:BaseModel)->()) -> URLSessionTask {
      
-        let param = ["userID" : String.check(userID)]
+        let param:[String:Any] = ["userID" : String.check(userID)]
         
         return  self.request(method: .post, url: AppRequestURL.system,buildType:AppRequestType.UA001, paramters:param ) { (result, error) in
             

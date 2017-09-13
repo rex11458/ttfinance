@@ -61,7 +61,7 @@ class MainMineViewController: BaseViewController,UITableViewDelegate,UITableView
         self.navigationItem.leftBarButtonItem = leftBarItem
         
         let rightImage = #imageLiteral(resourceName: "new_message")
-        let rightBarItem = UIBarButtonItem(image: rightImage, style: .plain, target: self, action: #selector(self.setting))
+        let rightBarItem = UIBarButtonItem(image: rightImage, style: .plain, target: self, action: #selector(self.messagecenter))
         rightBarItem.tintColor = UIColor.white
         self.navigationItem.rightBarButtonItem = rightBarItem
     }
@@ -72,6 +72,14 @@ class MainMineViewController: BaseViewController,UITableViewDelegate,UITableView
         let vc:SettingViewController = SettingViewController()
         vc.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+   @objc private func messagecenter(){
+    
+    let messagecenter:MessageCenterViewController = MessageCenterViewController()
+        messagecenter.hidesBottomBarWhenPushed = true
+    self.navigationController?.pushViewController(messagecenter, animated: true)
+    
     }
     
     
@@ -189,6 +197,17 @@ class MainMineViewController: BaseViewController,UITableViewDelegate,UITableView
         let vc = LoginStoryBoard.instantiateInitialViewController()
         
         self.present(vc!, animated: true, completion: nil)
+    }
+    
+    /*
+     *  我的自选
+     */
+    
+    func mineFavouris() {
+        let vc = MineFavourisContainerViewController()
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
+        
     }
     
     
